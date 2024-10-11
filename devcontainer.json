@@ -1,4 +1,4 @@
 {
-  image: "dev_dash_pandas",
+  image: "dev_dash_pandas:v2",
 
 }
