@@ -4,14 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb54a393-884c-4622-8e49-c60b1444f9bc" name="Changes" comment="Added basics">
-      <change afterPath="$PROJECT_DIR$/DAGS/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DAGS/oracledb_connect.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DAGS/snowflake_connect.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Orchestrator_DAG.py" afterDir="false" />
+    <list default="true" id="cb54a393-884c-4622-8e49-c60b1444f9bc" name="Changes" comment="Refactored with devcontainer. example dags and orchestrator template">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devcontainer.json" beforeDir="false" afterPath="$PROJECT_DIR$/devcontainer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +106,7 @@
       <option name="presentableId" value="Default" />
       <updated>1728627619919</updated>
       <workItem from="1728627621312" duration="2170000" />
-      <workItem from="1728633628193" duration="6700000" />
+      <workItem from="1728633628193" duration="7693000" />
     </task>
     <task id="LOCAL−00001" summary="Added basics">
       <option name="closed" value="true" />
@@ -121,7 +115,14 @@
       <option name="presentableId" value="LOCAL−00001" />
       <updated>1728628921618</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL−00002" summary="Refactored with devcontainer. example dags and orchestrator template">
+      <option name="closed" value="true" />
+      <created>1728649150555</created>
+      <option name="number" value="LOCAL−00002" />
+      <option name="presentableId" value="LOCAL−00002" />
+      <updated>1728649150555</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -129,7 +130,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added basics" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added basics" />
+    <MESSAGE value="Refactored with devcontainer. example dags and orchestrator template" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactored with devcontainer. example dags and orchestrator template" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
