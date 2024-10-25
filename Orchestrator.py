@@ -3,7 +3,7 @@ from airflow.operators.python import PythonOperator
 from datetime import datetime, timedelta
 import pandas as pd
 import os
-from DAGS import oracledb_connect, snowflake_connect
+from connectors import oracledb_connect, snowflake_connect
 
 # This can't be run in normal debugger, needs a Airflow instance on a server.
 # DAG default arguments
@@ -24,23 +24,6 @@ dag = DAG(
     description='A DAG to extract data from Oracle, CSV, and load into Snowflake',
     schedule_interval=timedelta(hours=1),
 )
-
-# Oracle connection parameters possibly to another docker instance oracle/
-oracle_conn_params = {
-    "user": "your_oracle_username",
-    "password": "your_oracle_password",
-    "dsn": "your_oracle_host:your_oracle_port/your_oracle_service_name"
-}
-
-# Snowflake connection parameters
-snowflake_conn_params = {
-    "account": "your_snowflake_account_identifier",
-    "user": "your_snowflake_username",
-    "password": "your_snowflake_password",
-    "warehouse": "your_snowflake_warehouse",
-    "database": "your_snowflake_database",
-    "schema": "your_snowflake_schema"
-}
 
 # CSV file path
 csv_file_path = "./csvfile.csv"

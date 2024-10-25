@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb54a393-884c-4622-8e49-c60b1444f9bc" name="Changes" comment="Refactored with devcontainer. example dags and orchestrator template">
+    <list default="true" id="cb54a393-884c-4622-8e49-c60b1444f9bc" name="Changes" comment="Added testscript">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Orchestrator_DAG.py" beforeDir="false" afterPath="$PROJECT_DIR$/Orchestrator_DAG.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,21 +44,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/repos/DemoProjectNordea&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "D:/repos/UpskillDE",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\repos\DemoProjectNordea\DAGS\resources" />
       <recent name="D:\repos\DemoProjectNordea" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -106,7 +108,8 @@
       <option name="presentableId" value="Default" />
       <updated>1728627619919</updated>
       <workItem from="1728627621312" duration="2170000" />
-      <workItem from="1728633628193" duration="7693000" />
+      <workItem from="1728633628193" duration="10571000" />
+      <workItem from="1729252116616" duration="40000" />
     </task>
     <task id="LOCAL−00001" summary="Added basics">
       <option name="closed" value="true" />
@@ -122,7 +125,14 @@
       <option name="presentableId" value="LOCAL−00002" />
       <updated>1728649150555</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL−00003" summary="Added testscript">
+      <option name="closed" value="true" />
+      <created>1728651228015</created>
+      <option name="number" value="LOCAL−00003" />
+      <option name="presentableId" value="LOCAL−00003" />
+      <updated>1728651228015</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,7 +141,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added basics" />
     <MESSAGE value="Refactored with devcontainer. example dags and orchestrator template" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactored with devcontainer. example dags and orchestrator template" />
+    <MESSAGE value="Added testscript" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added testscript" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
